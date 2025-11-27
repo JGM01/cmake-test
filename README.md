@@ -1,20 +1,14 @@
 # Minimal CMake Project
 
-```bash
-# 1. Configure (creates build/ folder automatically)
-cmake --preset default
+Configure (creates build/ folder automatically)
+`cmake --preset default`
 
-# 2. Build Debug
-cmake --build --preset debug
+Build Debug
+`cmake --build --preset debug`
 
-# 3. Run the app
-./build/Debug/myapp          # Linux/macOS
-./build/Debug/myapp.exe      # Windows
+Run the app (use .exe on Windows)
+`./build/Debug/myapp`
+`./build/Debug/myapp.exe`
 
-# 4. Run tests
-ctest --preset default       # uses Debug by default
-
-# or explicitly:
-ctest --preset default -C Release
-```
-
+Run tests (defaults to Debug)
+`ctest --preset default`
