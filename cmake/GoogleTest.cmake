@@ -3,7 +3,6 @@ if(NOT BUILD_TESTING)
 endif()
 
 if(TARGET GTest::gtest_main)
-    # Already processed — avoid re-fetching in multi-config or reconfigure scenarios
     return()
 endif()
 
