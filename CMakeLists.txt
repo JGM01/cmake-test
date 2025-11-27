@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.2)
+cmake_minimum_required(VERSION 4.0...4.2)
 project(MyProj VERSION 0.0.1 DESCRIPTION "Gonna use this as boilerplate :)" LANGUAGES CXX)
 
 option(BUILD_TESTING "Build the tests" ON)
